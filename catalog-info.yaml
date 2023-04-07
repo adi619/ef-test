@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ef-test
-  description: An example of a Backstage application.
+  name: Swiftly integration with backstage
+  description: Swiftly integration with Backstage
   # Example for optional annotations
   # annotations:
   #   github.com/project-slug: backstage/backstage

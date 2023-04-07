@@ -74,6 +74,10 @@ auth:
       development:
         clientId: a22777a5738b6361b713
         clientSecret: 2ab6ea9855afe272fa4303ec8b7e80909a735f30
+    google:
+      development:
+        clientId: 756655329180-ov9ihb4s7lamfab9smrnijs5obuk3jes.apps.googleusercontent.com
+        clientSecret: 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
   # see https://backstage.io/docs/auth/ to learn about auth providers
 
 
