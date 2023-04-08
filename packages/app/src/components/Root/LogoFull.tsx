@@ -1,7 +1,13 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core';
+import MyCustomLogoFull from './logo/Swiftly_logo.svg';
+/* 
+const LogoFull = () => {
+  
+  return <img src={MyCustomLogoFull} />;
+}; */
 
-const useStyles = makeStyles({
+ const useStyles = makeStyles({
   svg: {
     width: 'auto',
     height: 30,
@@ -9,14 +15,14 @@ const useStyles = makeStyles({
   path: {
     fill: '#7df3e1',
   },
-});
-const LogoFull = () => {
+}); 
+ const LogoFull = () => {
   const classes = useStyles();
 
   return (
     <svg
       className={classes.svg}
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns="/Users/adityagudipudi/node_project/ef-test/packages/app/src/components/Root/logo/Swiftly_logo.svg"
       viewBox="0 0 2079.95 456.05"
     >
       <path
@@ -25,6 +31,6 @@ const LogoFull = () => {
       />
     </svg>
   );
-};
+}; 
 
 export default LogoFull;
