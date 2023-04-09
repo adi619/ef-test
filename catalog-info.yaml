@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Swiftly integration with backstage
-  description: Swiftly integration with Backstage
+  name: education-first
+  description: A Backstage application.
   # Example for optional annotations
   # annotations:
   #   github.com/project-slug: backstage/backstage
