@@ -48,7 +48,10 @@ integrations:
     # - host: ghe.example.net
     #   apiBaseUrl: https://ghe.example.net/api/v3
     #   token: ${GHE_TOKEN}
-
+  google:
+      development:
+        clientId: 756655329180-ov9ihb4s7lamfab9smrnijs5obuk3jes.apps.googleusercontent.com
+        clientSecret: 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
 proxy:
   ### Example for how to add a proxy endpoint for the frontend.
   ### A typical reason to do this is to handle HTTPS and CORS for internal services.
